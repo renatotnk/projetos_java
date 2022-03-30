@@ -1,0 +1,5 @@
+package com.renatotnk.workshopmongo.dto;
+
+public class UserDTO {
+
+}

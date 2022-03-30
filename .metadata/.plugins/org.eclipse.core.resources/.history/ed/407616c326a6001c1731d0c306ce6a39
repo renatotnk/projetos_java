@@ -1,0 +1,5 @@
+package com.renatotnk.workshopmongo.repository;
+
+public interface UserRepository {
+
+}

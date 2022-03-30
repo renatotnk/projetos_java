@@ -1,0 +1,5 @@
+package com.renatotnk.workshopmongo.services;
+
+public class UserService {
+
+}

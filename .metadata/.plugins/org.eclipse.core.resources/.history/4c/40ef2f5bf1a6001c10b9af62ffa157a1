@@ -1,0 +1,12 @@
+package com.renatotnk.workshopmongo.resources.exception;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+import com.renatotnk.workshopmongo.services.exception.ObjectNotFoundException;
+
+@ControllerAdvice
+public class ResourceExceptionHandler {
+	public ResponseEntity<StandardError> objectNotFound(ObjectNotFoundException e, HttpServletRequest request);
+}
