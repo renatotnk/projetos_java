@@ -1,5 +1,0 @@
-package com.renatotnk.workshopmongo.resources.exception;
-
-public class StandardError {
-
-}
